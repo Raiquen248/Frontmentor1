@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1, p {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 1.5rem;
+    color: hsl(225, 12%, 33%);
+}
+
+.image-text-container {
+    background-color: white;
+    font-size: 11px;
+    text-align: center;
+    padding: 1.2rem;
+    width: 25rem;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.image-text-container img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+/* Media Query para Pantallas Pequeñas (móviles) */
+@media only screen and (max-width: 451px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .image-text-container {
+        width: auto;
+        padding: 1rem;
+    }
+}
+
