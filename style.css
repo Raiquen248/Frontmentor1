@@ -1,5 +1,8 @@
 body {
     background-color: hsl(212, 45%, 89%);
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 h1, p {
@@ -17,6 +20,7 @@ p {
 }
 
 .image-text-container {
+
     background-color: white;
     font-size: 11px;
     text-align: center;
