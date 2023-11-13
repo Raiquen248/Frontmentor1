@@ -1,8 +1,9 @@
 body {
     background-color: hsl(212, 45%, 89%);
-
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   min-height: 100vh;
 }
 
 h1, p {
